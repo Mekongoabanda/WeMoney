@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="Connexion">Conexión </string>
+    <string name="Votre_porte_monnaie_électronique_à_porter_de_main__faites_vous_aussi_parti_du_numérique">Su billetera electrónica para llevar, usted también parte de la digital</string>
+    <string name="Inscription">Registro </string>
+    <string name="Mot_de_passe">Contraseña </string>
+    <string name="Nom_d_utilisateur">Nombre del usuario </string>
+    <string name="hello_world">hola el mundo</string>
+    <string name="action_settings">configuraciones</string>
+    <string name="Musique">música</string>
+    <string name="Actu_WeMoney">Actu We Money</string>
+    <string name="technologie">tecnología</string>
+    <string name="international">internacional</string>
+    <string name="Bienvenue_sur_WeMoney"> Bienvenido</string>
+    <string name="Veuillez_entrer_votre_numéro_de_téléphone">Por favor ingrese su número de teléfono:</string>
+    <string name="Validez">ENVIAR!</string>
+    <string name="Fil_actualité">noticias</string>
+    <string name="entrez_votre_num_ici">Ingrese su número aquí</string>
+    <string name="Un_code_vous_a_été_envoyé_par_SMS">Un código le ha sido enviado por SMS</string>
+    <string name="Veuillez_entrer_le_code_de_confirmation">Introduzca el código de confirmación</string>
+    <string name="Entrez_le_code_ici">Ingrese el código aquí</string>
+    <string name="parametres">Configuraciones</string>
+    <string name="tous_les_utilisateurs">Todos los usuarios</string>
+    <string name="Mon_compte_orange_money"> Mi cuenta OrangeMoney</string>
+    <string name="Changer_votre_photo"> Edite su foto </string>
+    <string name="Changer_de_statut"> Cambiar estado </string>
+    <string name="Demandes">Solicitudes</string>
+    <string name="Discussions">Discusión</string>
+    <string name="Amis">Amigos</string>
+    <string name="si_votre_nom_d_utilisateur_et_votre_statut_ne_sont_pas_affichés_vérifiez_votre_connexion_Internet">Si su nombre de usuario y estado no se muestran, verifique su conexión a Internet.</string>
+    <string name="mon_compte_bancaire">mi cuenta bancaria</string>
+    <string name="Envoyer_de_l_argent">Enviar dinero</string>
+    <string name="WeMoney_actu">noticias</string>
+    <string name="Mon_compte">Mi cuenta</string>
+    <string name="Mes_informations">mi información</string>
+    <string name="Nombre_d_ami">Total de amigos</string>
+    <string name="Demande_d_ami">Solicitar amistad</string>
+    <string name="Statut_user_courant">Estado de carga ...</string>
+    <string name="Name_user_courant">Cargando nombre ......</string>
+    <string name ="chargement_des_données_utilisateur">cargando datos de usuario</string>
+    <string name ="Patientez_nous_chargeons_les_données_utilisateur">Espere mientras cargamos los datos del usuario.</string>
+
+
+</resources>

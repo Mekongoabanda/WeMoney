@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#cfc391</color>
+    <color name="colortext">#e1e5ee</color>
+    <color name="colordevider">#cfc391</color>
+    <color name="signintext">#cfc391</color>
+    <color name="blue">#303F9F</color>
+    <color name="green_teal">#009688</color>
+    <color name="red">#a31513</color>
+    <color name="lime">#CDDC39</color>
+    <color name="green">#326834</color>
+    <color name="purple">#673AB7</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="orange">#e76f00</color>
+    <color name="accent_color">@color/blue</color>
+    <color name="statusBarColor">@color/blue</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+    <color name="deuxiemecouleur">#A9AC70</color>
+    <color name="bottom_color">#DFDFDF</color>
+    <color name="OrangeTM">#F86B00</color>
+    <color name="JauneMTN">#FFCC00</color>
+    <color name="RosePink">#F9A1A1</color>
+    <color name="OtherGreen">#468449</color>
+    <color name="White">#FCFCFC</color>
+    <color name="Gris">#BEBEBE</color>
+
+
+
+
+</resources>

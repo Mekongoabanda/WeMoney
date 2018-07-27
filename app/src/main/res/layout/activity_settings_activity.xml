@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkgreenback"
+    tools:context="ws.wolfsoft.shoeshappiness.Settings_activity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/default_avatar"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/settings_name"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="Please Wait..."
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/settings_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/si_votre_nom_d_utilisateur_et_votre_statut_ne_sont_pas_affichés_vérifiez_votre_connexion_Internet"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="WeMoney "
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_pp"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/settings_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:progressTint="@color/green" />
+
+    <Button
+        android:clickable="true"
+        android:id="@+id/compte_orange_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cpte_bancaire_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/orangemoneybtn"
+        android:text="@string/Mon_compte_orange_money"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <Button
+        android:clickable="true"
+        android:id="@+id/cpte_bancaire_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/settings_image_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/comptebancaire"
+        android:text="@string/mon_compte_bancaire"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:clickable="true"
+        android:id="@+id/settings_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/settings_statut_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/changephoto"
+        android:text="@string/Changer_votre_photo"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:clickable="true"
+        android:id="@+id/settings_statut_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/settings_image"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/settings_image"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/changestatut"
+        android:text="@string/Changer_de_statut"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:focusable="true" />
+
+</RelativeLayout>

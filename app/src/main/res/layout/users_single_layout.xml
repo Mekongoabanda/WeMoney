@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:background="?android:selectableItemBackground">
+
+    <Button
+        android:id="@+id/alertebtn2"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignTop="@+id/user_single_name"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/user_single_name"
+        android:layout_toRightOf="@+id/user_single_name"
+        android:background="@drawable/alerte"
+        android:visibility="visible" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_single_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/users_appBar"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/user_single_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_single_image"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/user_single_image"
+        android:layout_toRightOf="@+id/user_single_image"
+        android:text="Nom à Afficher"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/User_single_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_single_name"
+        android:layout_alignStart="@+id/user_single_name"
+        android:layout_below="@+id/user_single_name"
+        android:layout_marginTop="10dp"
+        android:text="statut " />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="255dp"
+        android:layout_height="0.3dp"
+        android:layout_alignLeft="@+id/User_single_status"
+        android:layout_alignStart="@+id/User_single_status"
+        android:layout_below="@+id/user_single_image"
+        android:layout_marginTop="7dp"
+        android:background="@android:color/darker_gray" />
+
+    <ProgressBar
+        android:id="@+id/progressBarAllUsers"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/user_single_image"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="9dp"
+        android:layout_toLeftOf="@+id/user_single_name"
+        android:layout_toStartOf="@+id/user_single_name"
+        android:progressDrawable="@color/green"
+        android:progressTint="@color/green" />
+
+</RelativeLayout>

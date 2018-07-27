@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="Connexion">Connexion </string>
+<string name="Votre_porte_monnaie_électronique_à_porter_de_main__faites_vous_aussi_parti_du_numérique">Votre porte monnaie électronique à portée de main, faites vous aussi partie du numérique</string>
+<string name="Inscription">Inscription </string>
+<string name="Mot_de_passe">Mot de Passe </string>
+<string name="Nom_d_utilisateur">Nom d\'utilisateur </string>
+    <string name="app_name">WeMoney</string>
+    <string name="hello_world">Bonjour le monde!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="Musique">Musique</string>
+    <string name="Actu_WeMoney">Actu WeMoney</string>
+    <string name="technologie">technologie</string>
+    <string name="international">international</string>
+    <string name="Bienvenue_sur_WeMoney"> Bienvenue</string>
+    <string name="Veuillez_entrer_votre_numéro_de_téléphone"> VEUILLEZ ENTRER VOTRE NUMERO DE TELEPHONE:</string>
+    <string name="Validez">VALIDEZ!</string>
+    <string name="Fil_actualité">FIL D\'ACTUALITE</string>
+    <string name="entrez_votre_num_ici">Entrez votre numéro ici</string>
+    <string name="Un_code_vous_a_été_envoyé_par_SMS">Un code vous a été envoyé par SMS</string>
+    <string name="Veuillez_entrer_le_code_de_confirmation">Veuillez entrer le code de confirmation</string>
+    <string name="Entrez_le_code_ici">Entrez le code ici</string>
+    <string name="Deconnexion">Déconnexion</string>
+    <string name="parametres">Paramètres</string>
+    <string name="tous_les_utilisateurs">Utilisateurs</string>
+    <string name="Mon_compte_orange_money"> Mon Compte OrangeMoney</string>
+    <string name="Changer_votre_photo"> Changer votre photo </string>
+    <string name="Changer_de_statut"> Changer de statut </string>
+    <string name="Demandes">Demandes</string>
+    <string name="Discussions">Discussions</string>
+    <string name="Amis">AMI(E)s</string>
+    <string name="si_votre_nom_d_utilisateur_et_votre_statut_ne_sont_pas_affichés_vérifiez_votre_connexion_Internet">Si votre nom d\'utilisateur et votre statut ne sont pas affichés, vérifiez votre connexion Internet</string>
+    <string name="mon_compte_bancaire">Mon compte bancaire</string>
+    <string name="Envoyer_de_l_argent">Envoyer de l\'argent</string>
+    <string name="WeMoney_actu">Fil d\'actualités </string>
+    <string name="Mon_compte">Mon compte</string>
+    <string name="Mes_informations">Info personnelles</string>
+    <string name="Nombre_d_ami">Nombre d\'amis</string>
+    <string name="Demande_d_ami">Demande d\'amitié</string>
+    <string name="Statut_user_courant">Chargement du statut...</string>
+    <string name="Name_user_courant">Chargement du Nom...</string>
+    <string name ="chargement_des_données_utilisateur">chargement des données de l\'utilisateur</string>
+    <string name ="Patientez_nous_chargeons_les_données_utilisateur">Veuillez patienter pendant que nous chargeons les données utilisateur.</string>
+
+</resources>

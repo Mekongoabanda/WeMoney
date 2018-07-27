@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "405686641219",
+    "firebase_url": "https://wemoney-210797.firebaseio.com",
+    "project_id": "wemoney-210797",
+    "storage_bucket": "wemoney-210797.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405686641219:android:c581feafc729e924",
+        "android_client_info": {
+          "package_name": "ws.wolfsoft.shoeshappiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405686641219-ke5lae53a78bma1fijjt0op0pst5eu56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ws.wolfsoft.shoeshappiness",
+            "certificate_hash": "605eef2a578db434906cf35a399a57be83634805"
+          }
+        },
+        {
+          "client_id": "405686641219-rpj7fs3rajtb03er2q1t48ovqap8cmv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1DkmyA35NH9W_PzdTRiHpEbcCSxwTmo4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405686641219-rpj7fs3rajtb03er2q1t48ovqap8cmv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

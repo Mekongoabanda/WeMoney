@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="282dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="70dp"
+            android:src="@drawable/logo1n"
+
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/curve1"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:lineSpacingExtra="7dp"
+                    android:text="@string/Votre_porte_monnaie_électronique_à_porter_de_main__faites_vous_aussi_parti_du_numérique"
+                    android:textColor="@android:color/black"
+
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3.5"
+                android:background="@drawable/curve1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="52dp"
+                    android:orientation="horizontal">
+
+                    <customfonts.MyTextView
+                        android:id="@+id/signin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Mon_compte"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="21dp" />
+
+                    <View
+
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginTop="13dp"
+
+                        android:background="@android:color/holo_green_light"
+                        android:gravity="center"
+
+                        />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/signup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Inscription"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="21dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="ws.wolfsoft.shoeshappiness.MainActivity">-->
+
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/fram"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!-->-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/bg1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="520dp"-->
+    <!--android:background="@drawable/bg1"-->
+
+    <!--/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/curve"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="125dp"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:background="@drawable/curve1"-->
+
+    <!--/>-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:gravity="center"-->
+    <!-->-->
+    <!--<customfonts.MyTextView-->
+    <!--android:id="@+id/signin"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Sign in"-->
+    <!--android:textSize="21dp"-->
+    <!--android:textColor="@color/colortext"-->
+    <!--android:gravity="center"-->
+    <!--/>-->
+
+    <!--<View-->
+
+    <!--android:layout_width="1dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_marginBottom="13dp"-->
+    <!--android:layout_marginTop="13dp"-->
+
+    <!--android:gravity="center"-->
+    <!--android:background="@color/colordevider"-->
+
+    <!--/>-->
+    <!--<customfonts.MyTextView-->
+    <!--android:id="@+id/signup"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Sign up"-->
+    <!--android:textSize="21dp"-->
+    <!--android:textColor="@color/colortext"-->
+    <!--android:gravity="center"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+
+
+
+
+    <!--</FrameLayout>-->
+
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/logo"-->
+    <!--android:layout_width="170dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/logo"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/curve1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="106dp"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:background="@drawable/curve1"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:visibility="invisible"-->
+
+    <!--/>-->
+
+    <!--<customfonts.MyTextView-->
+    <!--android:layout_above="@+id/curve1"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="&quot;You can’t buy HAPPINESS, but you can buy  SHOSE and that’s kind of the same thing&quot;"-->
+    <!--android:textSize="18dp"-->
+    <!--android:lineSpacingExtra="7dp"-->
+    <!--android:textColor="#fff"-->
+    <!--android:gravity="center"-->
+
+    <!--/>-->
+
+
+
+
+    <!--</RelativeLayout>-->

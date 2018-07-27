@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+            <string name="Connexion">登录 </string>
+            <string name="Votre_porte_monnaie_électronique_à_porter_de_main__faites_vous_aussi_parti_du_numérique">你的电子钱包穿，你也是数字的一部分</string>
+            <string name="Inscription">注册 </string>
+            <string name="Mot_de_passe">密码 </string>
+            <string name="Nom_d_utilisateur">用户名 </string>
+    <string name="hello_world">你好世界</string>
+    <string name="action_settings">设置</string>
+    <string name="Musique">音乐</string>
+    <string name="Actu_WeMoney">时事 WeMoney</string>
+    <string name="technologie">技术</string>
+    <string name="international">国际</string>
+    <string name="Bienvenue_sur_WeMoney"> 欢迎来到WeMoney</string>
+    <string name="Veuillez_entrer_votre_numéro_de_téléphone">请输入您的电话号码。:</string>
+    <string name="Validez">投稿！</string>
+    <string name="Fil_actualité">新闻饲料</string>
+    <string name="entrez_votre_num_ici">在这里输入你的号码</string>
+    <string name="Un_code_vous_a_été_envoyé_par_SMS">已经通过短信发送了一个代码</string>
+    <string name="Veuillez_entrer_le_code_de_confirmation">请输入确认码</string>
+    <string name="Entrez_le_code_ici">在这里输入代码</string>
+    <string name="parametres">设置</string>
+    <string name="tous_les_utilisateurs">所有用户</string>
+    <string name="Mon_compte_orange_money"> 我的OrangeMoney帐户。</string>
+    <string name="Changer_votre_photo"> 编辑你的照片 </string>
+    <string name="Changer_de_statut"> 更改状态 </string>
+    <string name="Demandes">请求</string>
+    <string name="Discussions">讨论</string>
+    <string name="Amis">朋友</string>
+    <string name="si_votre_nom_d_utilisateur_et_votre_statut_ne_sont_pas_affichés_vérifiez_votre_connexion_Internet">如果您的用户名和状态未显示，请检查您的Internet连接</string>
+    <string name="mon_compte_bancaire">我的银行帐号</string>
+    <string name="Envoyer_de_l_argent">寄钱</string>
+    <string name="WeMoney_actu">新闻</string>
+    <string name="Mon_compte">我的账户</string>
+    <string name="Mes_informations">我的资料</string>
+    <string name="Nombre_d_ami">共同的朋友</string>
+    <string name="Demande_d_ami">请求友谊</string>
+    <string name="Statut_user_courant">载入状态...</string>
+    <string name="Name_user_courant">载入名称...</string>
+    <string name ="chargement_des_données_utilisateur">加载用户数据</string>
+    <string name ="Patientez_nous_chargeons_les_données_utilisateur">请稍候，我们加载用户数据。</string>
+
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.wiZdget.SearchView" />
+    <item
+        android:id="@+id/all_user_btn"
+        android:title="@string/tous_les_utilisateurs" />
+    <item
+        android:id="@+id/settings_btn"
+        android:title="@string/parametres" />
+    <item
+        android:id="@+id/envoyer_argent_item"
+        android:title="@string/Envoyer_de_l_argent"
+        android:textStyle ="bold"/>
+    <item
+        android:id="@+id/actu_item"
+        android:title="@string/WeMoney_actu" />
+    <item
+        android:id="@+id/QR_code_item"
+        android:title="QR Code" />
+    <item
+        android:id="@+id/Mes_informations_item"
+        android:title="@string/Mes_informations" />
+    <item
+        android:id="@+id/main_logOut"
+        android:title="@string/Deconnexion" />
+</menu>

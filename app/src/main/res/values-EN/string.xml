@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Connexion">Sign In </string>
+    <string name="Votre_porte_monnaie_électronique_à_porter_de_main__faites_vous_aussi_parti_du_numérique">Your electronic wallet to wear, you also part of the digital</string>
+    <string name="Inscription">Sign Up </string>
+    <string name="Mot_de_passe">Password </string>
+    <string name="Nom_d_utilisateur">User Name </string>
+    <string name="app_name">WeMoney</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Musique">Music</string>
+    <string name="Actu_WeMoney">Actu WeMoney</string>
+    <string name="technologie">technology</string>
+    <string name="international">international</string>
+    <string name="Bienvenue_sur_WeMoney"> Welcome</string>
+    <string name="Veuillez_entrer_votre_numéro_de_téléphone">Please Enter Your Phone Number:</string>
+    <string name="Validez">SUBMIT!</string>
+    <string name="Fil_actualité">News</string>
+    <string name="entrez_votre_num_ici">Enter your number here</string>
+    <string name="Un_code_vous_a_été_envoyé_par_SMS">A code has been sent to you by SMS</string>
+    <string name="Veuillez_entrer_le_code_de_confirmation">Please enter the confirmation code</string>
+    <string name="Entrez_le_code_ici">Enter the code here</string>
+    <string name="Deconnexion">Log Out</string>
+    <string name="parametres">Settings</string>
+    <string name="tous_les_utilisateurs">All Users</string>
+    <string name="Mon_compte_orange_money">My OrangeMoney account</string>
+    <string name="Changer_votre_photo">Edit your photo </string>
+    <string name="Changer_de_statut"> Change status </string>
+    <string name="Demandes">Requests</string>
+    <string name="Discussions">Discussions</string>
+    <string name="Amis">Friends</string>
+    <string name="si_votre_nom_d_utilisateur_et_votre_statut_ne_sont_pas_affichés_vérifiez_votre_connexion_Internet">If your username and status are not displayed, check your Internet connection</string>
+    <string name="mon_compte_bancaire">My bank account</string>
+    <string name="Envoyer_de_l_argent">Send Money</string>
+    <string name="WeMoney_actu">News</string>
+    <string name="Mon_compte">My account</string>
+    <string name="Mes_informations">My informations</string>
+    <string name="Nombre_d_ami">Total friends</string>
+    <string name="Demande_d_ami">Friend request</string>
+    <string name="Statut_user_courant">Loading status...</string>
+    <string name="Name_user_courant">Loading Name...</string>
+    <string name ="chargement_des_données_utilisateur">loading user data</string>
+    <string name ="Patientez_nous_chargeons_les_données_utilisateur">Please wait while we load the user data.</string>
+
+
+
+
+</resources>
