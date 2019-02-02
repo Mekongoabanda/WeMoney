@@ -60,6 +60,7 @@ public class activity_bienvenue extends AppCompatActivity {
         valideznum = (MyTextView) findViewById(R.id.ValiderNum);
         mEntrerTelephone =(EditText) findViewById(R.id.entrerTelephone);
 
+
         //ICI nous assignons la nouvelle donnée entrée et attribuons le numéro de téléphone au nouvel inscrit
          mEntrerTelephone.setText(Num_tel);
 
@@ -88,7 +89,7 @@ public class activity_bienvenue extends AppCompatActivity {
                         if (task.isSuccessful()){
 
                             mProgress.dismiss();
-                            Intent status_intent = new Intent(activity_bienvenue.this, Main_messagerie.class);
+                            Intent status_intent = new Intent(activity_bienvenue.this, PrincipalActivity.class);
                             startActivity(status_intent);
                             Toast.makeText(getApplicationContext(), "Numéro enregistré", Toast.LENGTH_SHORT).show();
 

@@ -42,6 +42,7 @@
     <string name="Name_user_courant">Loading Name...</string>
     <string name ="chargement_des_données_utilisateur">loading user data</string>
     <string name ="Patientez_nous_chargeons_les_données_utilisateur">Please wait while we load the user data.</string>
+    <string name ="Aucun_nom">No name</string>
 
 
 

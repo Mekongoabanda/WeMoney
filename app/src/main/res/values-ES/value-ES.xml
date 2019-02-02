@@ -40,6 +40,8 @@
     <string name="Name_user_courant">Cargando nombre ......</string>
     <string name ="chargement_des_données_utilisateur">cargando datos de usuario</string>
     <string name ="Patientez_nous_chargeons_les_données_utilisateur">Espere mientras cargamos los datos del usuario.</string>
+    <string name ="Aucun_nom">Sin nombre</string>
+
 
 
 </resources>

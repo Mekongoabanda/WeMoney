@@ -6,9 +6,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -72,8 +70,8 @@ public class Settings_activity extends AppCompatActivity {
 //////////////////////////////////////synchroniser le nom d'utilisateur, le statut et la photo de profile avec notre database firebase (DEBUT)////////////////////////////////////////////////////////////////
 /////////////////////////////////////                                                                                                          ////////////////////////////////////////////////////////////////
 
-        mDisplayImage = (CircleImageView) findViewById(R.id.settings_image);
-        mName = (TextView) findViewById(R.id.settings_name);
+        mDisplayImage = (CircleImageView) findViewById(R.id.profile_image );
+        mName = (TextView) findViewById(R.id.profile_displayName );
         mStatus = (TextView) findViewById(R.id.settings_status);
         mStatustbn = (TextView) findViewById(R.id.settings_statut_btn);
         mImagebtn = (TextView) findViewById(R.id.settings_image_btn);
@@ -104,6 +102,9 @@ public class Settings_activity extends AppCompatActivity {
 
                 if(!image.equals("default")) {
 
+                    //charger l'image téléchargée qui se trouve dans notre storage firebase
+                    mProgressBar.setVisibility(View.VISIBLE);
+
                     //sans sauvegarder l'image de profil dans la mémoire cache on aura utilisé ce code
                     //Picasso.with(Settings_activity.this).load(image).placeholder(R.drawable.default_avatar).into(mDisplayImage);
 
@@ -120,11 +121,16 @@ public class Settings_activity extends AppCompatActivity {
                         public void onError() {
 
                             Picasso.with(Settings_activity.this).load(image).placeholder(R.drawable.default_avatar).into(mDisplayImage);
+
                         }
                     });
 
                 }
-                mProgressBar.setVisibility(View.INVISIBLE);
+                if (!image.equals( "image" )){
+                    mProgressBar.setVisibility(View.INVISIBLE);
+                }
+
+
 
             }
 

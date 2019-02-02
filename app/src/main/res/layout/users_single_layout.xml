@@ -15,7 +15,7 @@
         android:layout_toEndOf="@+id/user_single_name"
         android:layout_toRightOf="@+id/user_single_name"
         android:background="@drawable/alerte"
-        android:visibility="visible" />
+        android:visibility="invisible" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/user_single_image"

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="ws.wolfsoft.shoeshappiness">
 
     <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
@@ -329,12 +330,23 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
+        android:name=".WeMoney"
         android:allowBackup="true"
         android:icon="@drawable/logo1n"
         android:label="WeMoney"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".WeMoney">
+        tools:overrideLibrary="com.shrikanthravi.library"
+        tools:replace="android:label">
+        <activity android:name=".ChatActivity"
+            android:parentActivityName=".PrincipalActivity"></activity>
+
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -364,11 +376,20 @@
             android:theme="@style/Base.Theme.AppCompat" />
         <activity
             android:name=".UsersActivity"
-            android:parentActivityName=".Main_messagerie" />
+            android:parentActivityName=".PrincipalActivity" />
         <activity android:name=".infos_persoActivity" />
-        <activity android:name=".ProfileActivity" />
         <activity android:name=".PrincipalActivity" />
-        <activity android:name=".WalletActivity"></activity>
+        <activity android:name=".WalletActivity" />
+        <activity android:name=".Activity_image_profil" />
+        <activity android:name=".ProfileActivity">
+            <intent-filter>
+                <action android:name="ws.wolfsoft.shoeshappiness_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".myQrCodeActivity" />
+        <activity android:name=".PutCardActivity" />
     </application>
 
 </manifest>

@@ -11,6 +11,7 @@
         android:id="@+id/profile_image"
         android:layout_width="match_parent"
         android:layout_height="220dp"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:adjustViewBounds="true"
@@ -56,9 +57,9 @@
         android:id="@+id/correct_icon"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignBottom="@+id/profile_send_req_btn"
-        android:layout_toEndOf="@+id/profile_send_req_btn"
-        android:layout_toRightOf="@+id/profile_send_req_btn"
+        android:layout_alignBottom="@+id/profile_totalFriends"
+        android:layout_toEndOf="@+id/profile_totalFriends"
+        android:layout_toRightOf="@+id/profile_totalFriends"
         android:background="@drawable/correct"
         android:visibility="invisible" />
 
@@ -84,13 +85,13 @@
         android:layout_height="25dp"
         android:layout_alignTop="@+id/profile_totalFriends"
         android:layout_marginTop="22dp"
-        android:layout_toLeftOf="@+id/profile_send_req_btn"
-        android:layout_toStartOf="@+id/profile_send_req_btn"
+        android:layout_toLeftOf="@+id/profile_totalFriends"
+        android:layout_toStartOf="@+id/profile_totalFriends"
         android:background="@drawable/alerte"
         android:visibility="invisible" />
 
     <Button
-        android:id="@+id/profile_send_req_btn"
+        android:id="@+id/profile_totalFriends"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/profile_decline_btn"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#326834</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#cfc391</color>
+    <color name="colorAccent">#C2C58F</color>
     <color name="colortext">#e1e5ee</color>
     <color name="colordevider">#cfc391</color>
     <color name="signintext">#cfc391</color>
@@ -21,11 +21,20 @@
     <color name="deuxiemecouleur">#A9AC70</color>
     <color name="bottom_color">#DFDFDF</color>
     <color name="OrangeTM">#F86B00</color>
+    <color name="Or">#ffd700</color>
     <color name="JauneMTN">#FFCC00</color>
     <color name="RosePink">#F9A1A1</color>
     <color name="OtherGreen">#468449</color>
-    <color name="White">#FCFCFC</color>
-    <color name="Gris">#BEBEBE</color>
+    <color name= "Green_Utiliser_argent">#326834</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Gris">#bebebe</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startgreen">#175732</color>
+    <color name="endgreen">#228B22</color>
+    <color name = "Gris_page_moi">#DEDEDE</color>
+    <color name = "gris_statut_moi">#575656</color>
+    <color name = "white_true">#FCFCFC</color>
+    <color name = "rose_like">#DB5C4B</color>
 
 
 

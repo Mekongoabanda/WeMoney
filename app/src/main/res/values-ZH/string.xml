@@ -39,6 +39,7 @@
     <string name="Name_user_courant">载入名称...</string>
     <string name ="chargement_des_données_utilisateur">加载用户数据</string>
     <string name ="Patientez_nous_chargeons_les_données_utilisateur">请稍候，我们加载用户数据。</string>
+    <string name ="Aucun_nom">没有名字</string>
 
 
 </resources>

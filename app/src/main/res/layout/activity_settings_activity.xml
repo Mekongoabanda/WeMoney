@@ -8,7 +8,7 @@
     tools:context="ws.wolfsoft.shoeshappiness.Settings_activity">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/settings_image"
+        android:id="@+id/profile_image"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginTop="27dp"
@@ -17,11 +17,11 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:id="@+id/settings_name"
+        android:id="@+id/profile_displayName"
         style="@style/Widget.AppCompat.TextView.SpinnerItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/settings_image"
+        android:layout_below="@+id/profile_image"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="33dp"
         android:text="Please Wait..."
@@ -34,7 +34,7 @@
         android:id="@+id/settings_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/settings_name"
+        android:layout_below="@+id/profile_displayName"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="@string/si_votre_nom_d_utilisateur_et_votre_statut_ne_sont_pas_affichés_vérifiez_votre_connexion_Internet"
@@ -63,7 +63,7 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/settings_image"
+        android:layout_alignTop="@+id/profile_image"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"
         android:progressTint="@color/green" />
@@ -115,9 +115,9 @@
         android:id="@+id/settings_statut_btn"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_alignEnd="@+id/settings_image"
+        android:layout_alignEnd="@+id/profile_image"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/settings_image"
+        android:layout_alignRight="@+id/profile_image"
         android:layout_marginBottom="8dp"
         android:background="@drawable/changestatut"
         android:text="@string/Changer_de_statut"

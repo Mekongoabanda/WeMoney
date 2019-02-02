@@ -9,8 +9,8 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.0-alpha16'
-        classpath 'com.google.gms:google-services:3.3.1'
+        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath 'com.google.gms:google-services:4.2.0'
         classpath 'io.fabric.tools:gradle:1.25.4'
 
 
@@ -27,6 +27,7 @@ allprojects {
         }
             maven    { url "https://oss.jfrog.org/artifactory/oss-snapshot-local" }
         jcenter()
+        maven {url "https://jitpack.io"}
         google()
     }
 }

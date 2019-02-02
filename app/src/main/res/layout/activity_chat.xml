@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity"
+    android:background="@drawable/backqrgray">
+
+    <!-- App Bar de notre Chat -->
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/chat_app_bar"
+        android:layout_height="65dp"
+        android:layout_width="match_parent"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/espace_message"
+            android:layout_width="290dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/espace_texte">
+
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/piece_jointe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/piecejointe" />
+
+        <ImageButton
+            android:id="@+id/send_message"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/send_msg" />
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:text="Ecrivez lui un message"
+            android:textSize="14dp" />
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

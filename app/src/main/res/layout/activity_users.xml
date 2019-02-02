@@ -9,14 +9,15 @@
     <include layout="@layout/app_bar_layout" android:id="@+id/users_appBar" />
 
     <SearchView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_above="@+id/users_list"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="12dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:background="@drawable/search" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/users_list"

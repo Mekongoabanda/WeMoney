@@ -67,16 +67,6 @@ public class Main_messagerie extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         super.onOptionsItemSelected(item);
 
-        //si l'utilisateur clique sur l'item actualité
-        if(item.getItemId() == R.id.actu_item){
-            //nous aurons d'abord un message d'apparition( si l'action est rapide c'est normale que le message n'apparaisse pas
-            progressdialog.setMessage("Chargement du fil d'actualité WeMoney");
-            progressdialog.show();
-            Intent actuIntent = new Intent(Main_messagerie.this, ActivityActuMain.class);
-            startActivity(actuIntent);
-            progressdialog.hide();
-
-        }
 
 //ici on applique le fonction déconnexion sur notre item "deconnexion" du menu toolbar si l'utilisateur appuie le boutton de déconnexion
         if (item.getItemId() == R.id.main_logOut) {

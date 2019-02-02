@@ -19,6 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.HashMap;
 
@@ -63,6 +64,18 @@ public class ActivitySignup extends AppCompatActivity implements View.OnClickLis
 
         back = (ImageView)findViewById(R.id.back);
 
+        // si la méthode getcurrentuser des objets n'est pas nulle
+        // signifie que l'utilisateur est déjà connecté
+        if(firebaseAuth.getCurrentUser() != null){
+            //Si l'utilisateur est déja connecté voici ce qui se passe
+            Toast.makeText( ActivitySignup.this, "Vous êtes déja inscrit et en plus connecté", Toast.LENGTH_SHORT ).show();
+            Intent mainIntent = new Intent(ActivitySignup.this, PrincipalActivity.class);
+            //quand on appuie sur retour ça quitte l'app si on est connecté
+            mainIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(mainIntent);
+            finish();
+        }
+
         signupbutt.setOnClickListener(this);
 
         back.setOnClickListener(new View.OnClickListener() {
@@ -77,7 +90,7 @@ public class ActivitySignup extends AppCompatActivity implements View.OnClickLis
     //procédure privée pour les champs à remplir afin d'authentifier l'utilisateur
     private void registerUser(){
     final String Nom_d_utilisateur = username.getText().toString().trim();
-    String Email = mail.getText().toString().trim();
+    final String Email = mail.getText().toString().trim();
     final String Mot_de_passe = password.getText().toString().trim();
 
     if (TextUtils.isEmpty(Email)){
@@ -114,6 +127,10 @@ public class ActivitySignup extends AppCompatActivity implements View.OnClickLis
                         FirebaseUser current_user = firebaseAuth.getInstance().getCurrentUser();
                         String uid = current_user.getUid();
 
+                        //On veut créer une données Token lorsque l'utilisateur s'inscrit, ceci pour les notifications (Firebase function)
+                        //device token est le jeton qui permettra d'envoyer un élément sur le téléphone d'un utilisateur
+                        String deviceToken = FirebaseInstanceId.getInstance().getToken();
+
                         mDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child(uid);
 
                         HashMap<String, String> userMap = new HashMap<>();
@@ -123,6 +140,8 @@ public class ActivitySignup extends AppCompatActivity implements View.OnClickLis
                         userMap.put("profil_image", "default");
                         userMap.put("password", Mot_de_passe);
                         userMap.put("phone_number", "default");
+                        userMap.put( "email", Email );
+                        userMap.put( "device_token", deviceToken );
 
                         mDatabase.setValue(userMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override

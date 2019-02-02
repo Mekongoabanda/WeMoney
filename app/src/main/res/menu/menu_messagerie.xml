@@ -4,16 +4,20 @@
 
     <item
         android:id="@+id/app_bar_search"
-        android:icon="@android:drawable/ic_menu_search"
+        android:icon="@drawable/search_or"
         android:title="Search"
+        app:actionViewClass="android.wiZdget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/settings_btn"
+        android:title="@string/parametres"
         app:showAsAction="ifRoom"
-        app:actionViewClass="android.wiZdget.SearchView" />
+        android:icon="@drawable/settings"/>
+
     <item
         android:id="@+id/all_user_btn"
         android:title="@string/tous_les_utilisateurs" />
-    <item
-        android:id="@+id/settings_btn"
-        android:title="@string/parametres" />
     <item
         android:id="@+id/envoyer_argent_item"
         android:title="@string/Envoyer_de_l_argent"
@@ -21,12 +25,16 @@
     <item
         android:id="@+id/actu_item"
         android:title="@string/WeMoney_actu" />
+
+    <item
+        android:id="@+id/Mes_informations_item"
+        android:title="@string/Mes_informations"
+        app:showAsAction="ifRoom"
+        android:iconTint="@drawable/edit"/>
     <item
         android:id="@+id/QR_code_item"
         android:title="QR Code" />
-    <item
-        android:id="@+id/Mes_informations_item"
-        android:title="@string/Mes_informations" />
+
     <item
         android:id="@+id/main_logOut"
         android:title="@string/Deconnexion" />

@@ -41,5 +41,5 @@
     <string name="Name_user_courant">Chargement du Nom...</string>
     <string name ="chargement_des_données_utilisateur">chargement des données de l\'utilisateur</string>
     <string name ="Patientez_nous_chargeons_les_données_utilisateur">Veuillez patienter pendant que nous chargeons les données utilisateur.</string>
-
+    <string name ="Aucun_nom">Aucun nom</string>
 </resources>
